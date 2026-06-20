@@ -12,4 +12,3 @@ else:
     total_wages = total_hours * 45
 
 print(f"Total Wages : {total_wages}")
-
