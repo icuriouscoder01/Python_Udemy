@@ -1,0 +1,18 @@
+#Restaurant Menu
+item1 = str(input("Enter the food item name: "))
+price1 = str(input("Enter the price: $"))
+space = 20 - len(item1) - len(price1)
+item2 = str(input("Enter the food item name: "))
+price2 = str(input("Enter the price: $"))
+space = 20 - len(item2) - len(price2)
+item3 = str(input("Enter the food item name: "))
+price3 = str(input("Enter the price: $"))
+space = 20 - len(item3) - len(price3)
+item4 = str(input("Enter the food item name: "))
+price4 = str(input("Enter the price: $"))
+space = 20 - len(item4) - len(price4)
+
+print(item1 + "-"*space + price1)
+print(item2 + "-"*space + price2)
+print(item3 + "-"*space + price3)
+print(item4 + "-"*space + price4)
